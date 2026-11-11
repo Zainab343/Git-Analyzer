@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# GitHub Analyzer
 
-## Project info
+An interactive GitHub profile analytics dashboard that helps developers explore GitHub profiles, understand repository statistics, and visualize programming language distribution through an intuitive interface.
 
-**URL**: https://lovable.dev/projects/546dc123-2fc7-40c0-b9bb-9d2c23c09319
+## Overview
 
-## How can I edit this code?
+GitHub Analyzer is a web-based developer analytics tool built to make exploring GitHub profiles easier and more visually engaging.
 
-There are several ways of editing your application.
+Users can enter any GitHub username and view profile information, repository statistics, programming language distribution, and top repositories in one dashboard.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/546dc123-2fc7-40c0-b9bb-9d2c23c09319) and start prompting.
+- **GitHub Profile Search:** Search for GitHub users by username.
+- **Profile Overview:** View profile avatars, usernames, followers, and following.
+- **Repository Statistics:** Explore public repositories and total stars.
+- **GitHub Gists:** View public Gist statistics.
+- **Language Distribution:** Visualize programming language usage through an interactive pie chart.
+- **Top Repositories:** Explore repositories with descriptions, programming languages, stars, and forks.
+- **Modern Dashboard:** Clean dark-themed interface with gradient styling and responsive components.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+Make sure you have the following installed:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js
+- npm
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Clone the repository:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/Zainab343/Git-Analyzer.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Git-Analyzer
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Open the local URL displayed in your terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## How to Use
 
-**Use GitHub Codespaces**
+1. Open GitHub Analyzer.
+2. Enter a GitHub username in the search field.
+3. Click the Analyze button.
+4. Explore the user's profile statistics and analytics dashboard.
+5. Review language distribution and top repositories.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```text
+Git-Analyzer/
+├── public/
+├── src/
+├── README.md
+├── index.html
+├── package.json
+├── bun.lockb
+└── components.json
+```
 
-This project is built with:
+## Project Goals
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The goal of GitHub Analyzer is to make developer activity and repository information easier to explore through visual analytics.
 
-## How can I deploy this project?
+Future improvements may include:
 
-Simply open [Lovable](https://lovable.dev/projects/546dc123-2fc7-40c0-b9bb-9d2c23c09319) and click on Share -> Publish.
+- Contribution activity visualizations.
+- More detailed repository analytics.
+- Additional profile insights.
+- Improved error handling and user experience.
+- Expanded filtering and sorting options.
 
-## Can I connect a custom domain to my Lovable project?
+## Development
 
-Yes, you can!
+This project was initially developed with AI-assisted tools, including Lovable, and is intended to be improved and maintained as an open-source developer analytics project.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Contributions, suggestions, and bug reports are welcome.
+
+If you would like to contribute, feel free to fork the repository, create a feature branch, and submit a pull request.
+
+## License
+
+A license has not yet been specified for this project.
+
+---
+
+**GitHub Analyzer** — Making GitHub profile insights easier to explore.
